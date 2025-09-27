@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,20 +11,63 @@
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
+
+            
+            background-color: rgba(0, 0, 0, 0.5); 
+            background-blend-mode: darken;
+
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            overflow-x: hidden;
         }
+
+        .header h1{
+            color: white;
+            font-size: 60px;
+            text-decoration: underline;
+            margin-top: 70px;
+            }
+        
+        .header p{
+            color: white;
+            font-size: 20px;
+            margin-top: 10px;
+            text-align: center;
+            }
+
+        .taskbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            text-align: center;
+            padding: 250px;
+            }
+
+        .taskbar button {
+            margin: 70px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            }
+        
+        
     </style>
 </head>
 <body>
-    <h1 style="font-size: 50px;"> <ins>WILLKOMMEN ZUR TIERWELT WEBISTE</ins> </h1>
-    <a href="pages/steckbrief.html">
-        <button style="font-size: 20px;"> Steckbrief </button>
-    </a>
-    <a href="pages/auf_karte.html">
-        <button style="font-size: 20px;"> Allgemeine Informationen </button>
-    </a>
-    <a href="pages/bilder.html">
-        <button style="font-size: 20px;"> Auf Karte ansehen </button>
-    </a>
-<body>
+
+    <div class="header">
+    <h1 style="text-decoration: underline;">Grosser Panda</h1>
+    <p class="beschreibung">Tierwelt Website</p>
+    </div>
     
+
+    <div class="taskbar">
+        <a href="/pages/steckbrief.html"><button>Steckbrief</button></a>
+        <a href="/pages/auf_karte.html"><button>Auf Karte anzeigen</button></a>
+        <a href="/pages/bilder.html"><button>Bilder</button></a>
+  </div>
+
+
+<body>    
 </html>
