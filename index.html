@@ -1,73 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tierwelt Website</title>
     <style>
+        html { scroll-behavior: smooth; }
         body {
-            background-image: url('/assets/background_panda.png');
-            background-size: cover        ;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-
-            
-            background-color: rgba(0, 0, 0, 0.5); 
-            background-blend-mode: darken;
-
-            display: flex;
-            justify-content: center; 
-            align-items: center; 
-            overflow-x: hidden;
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
 
-        .header h1{
+        /* Hero-Bereich */
+        header {
+            background: url('/assets/background_panda.png') center/cover no-repeat;
             color: white;
-            font-size: 60px;
-            text-decoration: underline;
-            margin-top: 70px;
-            }
-        
-        .header p{
-            color: white;
-            font-size: 20px;
-            margin-top: 10px;
             text-align: center;
-            }
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 20px;
+        }
 
-        .taskbar {
-            position: absolute;
+        header h1 { font-size: 4em; margin-bottom: 20px; }
+        header p { font-size: 1.5em; margin: 0; }
+
+        /* Navigation */
+        nav {
+            position: sticky;
             top: 0;
-            width: 100%;
+            background: #555;
             text-align: center;
-            padding: 250px;
-            }
+            padding: 15px 0;
+            z-index: 10;
+        }
 
-        .taskbar button {
-            margin: 70px;
+        nav button {
+            margin: 0 15px;
             padding: 10px 20px;
             font-size: 16px;
             cursor: pointer;
-            }
-        
-        
+            color: white;
+            background: transparent;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        nav button:hover {
+            background: white;
+            color: black;
+        }
+
+        /* Abstand nach Navigation */
+        .spacer { height: 50px; }
+
+        /* Content Bereich */
+        section {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 50px 20px;
+            color: black;
+        }
+
+        section h2 { font-size: 2.5em; margin-bottom: 20px; text-align: left; }
+        section p { font-size: 1.2em; line-height: 1.6; text-align: left; }
+
+        img { float: right; margin: 0 0 10px 10px; width: 300px; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 { font-size: 3em; }
+            header p { font-size: 1.2em; }
+            img { float: none; display: block; margin: 0 auto 20px auto; width: 80%; }
+        }
     </style>
 </head>
 <body>
 
-    <div class="header">
-    <h1 style="text-decoration: underline;">Grosser Panda</h1>
-    <p class="beschreibung">Tierwelt Website</p>
-    </div>
-    
+    <header>
+        <h1>Grosser Panda</h1>
+        <p>Willkommen zur Tierwelt-Website</p>
+    </header>
 
-    <div class="taskbar">
+    <nav>
         <a href="/pages/steckbrief.html"><button>Steckbrief</button></a>
         <a href="/pages/auf_karte.html"><button>Auf Karte anzeigen</button></a>
         <a href="/pages/bilder.html"><button>Bilder</button></a>
-  </div>
+    </nav>
 
+    <div class="spacer"></div>
 
-<body>    
+    <section>
+        <h2>Allgemeine Informationen</h2>
+        <img src="/assets/panda_liegen.jpg" alt="Panda">
+        <p>Der Große Panda (Ailuropoda melanoleuca) ist ein Schwarz-Weiß-Bär, der vor allem in den Bergwäldern in China lebt. Er ernährt sich zu 99% von Bambus, kann aber auch andere Pflanzen oder kleine Tiere fressen.</p>
+        <p>Pandas erreichen eine Größe von 120 bis 150 cm und wiegen zwischen 75 und 160 kg. Sie sind trotz ihrer massiven Erscheinung bis zu 32 km/h schnell. Die Lebenserwartung eines Pandas beträgt 14 bis 20 Jahre.</p>
+        <p>Die größten Bedrohungen für Pandas sind Leoparden und Schneeleoparden, da sie Raubtiere sind und mittelgrosse Tiere jagen. Baby oder kleine Pandas sind wehrlos und können nichts gegen die Raubtiere machen und werden zu leichte Opfern. Ausserdem sind Menschen eine Gefahr für Pandas durch Abholzung und Lebensraumverlust. Durch diese Eindrändung des Lebenraums können sich die Pandas schlecht ernähren, da sie ja zu 99% von Bambus ernähren. Damals wurden Pandas nicht nur von Raubtiere sondern auch Menschen gejagt wgen ihres Fells.</p>
+        <p>Weitere interessante Fakten und Informationen können hier hinzugefügt werden, damit Besucher beim Scrollen mehr über die Tiere erfahren.</p>
+    </section>
+
+</body>
 </html>
