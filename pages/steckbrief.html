@@ -1,51 +1,85 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tierwelt Website</title>
     <style>
         body {
-            background-color: green;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+            background-color: white;
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
 
         h1 {
-            text-align: center; 
+            text-align: center;
             text-decoration: underline;
-            color: aliceblue;
+            color: black;
             font-size: 50px;
-            }
+            margin-top: 20px;
+        }
+
+        nav {
+            background: #555;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        nav button {
+            margin: 0 15px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            color: white;
+            background: transparent;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        nav button:hover {
+            background: white;
+            color: black;
+        }
 
         p {
-            text-align:left;    
-            color: aliceblue;
+            text-align: left;
+            color: black;
             font-size: 20px;
             margin: 30px;
-            }   
-  
-</style>
+        }
+
+        img {
+            float: right;
+            margin: 0 0 10px 10px;
+            width: 800px;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <h1>STECKBRIEF</h1>
 
-    <div style="overflow: hidden;"> 
-    <img src="/assets/Panda.jpeg" alt="Panda" style="float: right; margin: 0 0 10px 10px; width: 800px;">
-    
-    <p>- Grösse: 120cm - 150cm</p>
-    <p>- Gewicht: 75kg - 160kg</p>
-    <p>- Geschwindigkeit: Bis 32km/h</p>
-    <p>- Lebensdauer: 14 Jahre - 20 Jahre</p>
-    <p>- Nahrung: Bambus</p>
-    <p>- Familie: Bären</p>
-    <p>- Feinde: Leopard/Schneeleopard, Wildhunde, Menschen </p>
-    <p>- Verbreitung: China</p>
-    <p>- Wissenschaftlicher Name: Ailuropoda melanoleuca</p>
-    <p>- Merkmale: Schwarz-weisser Bär, Nahrung 99% Bambus</p>
-</div>
-<body>
-    
+    <div style="overflow: hidden;">
+        <img src="/assets/Panda.jpeg" alt="Panda" />
+        <p>- Grösse: 120cm - 150cm</p>
+        <p>- Gewicht: 75kg - 160kg</p>
+        <p>- Geschwindigkeit: Bis 32km/h</p>
+        <p>- Lebensdauer: 14 Jahre - 20 Jahre</p>
+        <p>- Nahrung: Bambus</p>
+        <p>- Familie: Bären</p>
+        <p>- Feinde: Leopard/Schneeleopard, Wildhunde, Menschen </p>
+        <p>- Verbreitung: China</p>
+        <p>- Wissenschaftlicher Name: Ailuropoda melanoleuca</p>
+        <p>- Merkmale: Schwarz-weisser Bär, Nahrung 99% Bambus</p>
+    </div>
+
+    <nav>
+        <a href="/index.html"><button>Home-Page</button></a>
+        <a href="/pages/steckbrief.html"><button>Steckbrief</button></a>
+        <a href="/pages/auf_karte.html"><button>Auf Karte anzeigen</button></a>
+        <a href="/pages/bilder.html"><button>Bilder</button></a>
+    </nav>
+</body>
 </html>
