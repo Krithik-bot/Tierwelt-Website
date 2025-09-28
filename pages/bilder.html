@@ -6,31 +6,47 @@
     <style>
         body {
             margin: 0;
+            font-family: sans-serif;
         }
+
         .fullscreen {
             height: 100vh;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-        }
-        h1 {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
             color: white;
+            text-shadow: black;
+            font-size: 50px;
             text-align: center;
-            margin-top: 0px;
-            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-    <div class="fullscreen" style="background-image: url('/assets/Panda_bilder.jpg');">
-        <h1>Willkommen zur Tierwelt-Website Gallerie!</h1>
+    <div class="fullscreen" style="background-image: url('/assets/Panda_bilder.jpg'); text-decoration: underline; font-size: 40px;">
+        Willkommen zur Tierwelt-Website Gallerie!
     </div>
 
-    <div class="fullscreen" style="background-image: url('/assets/schneeleopard.jpg');"></div>
-    <div class="fullscreen" style="background-image: url('/assets/leopard.jpg');"></div>
-    <div class="fullscreen" style="background-image: url('/assets/wildhund.jpg');"></div>
-    <div class="fullscreen" style="background-image: url('/assets/menschen.jpg');"></div>
+    <div class="fullscreen" style="background-image: url('/assets/schneeleopard.jpg'); text-decoration: underline">
+        Schneeleopard
+    </div>
+
+    <div class="fullscreen" style="background-image: url('/assets/leopard.jpg'); text-decoration: underline">
+        Leopard
+    </div>
+
+    <div class="fullscreen" style="background-image: url('/assets/wildhund.jpg'); text-decoration: underline">
+        Wildhund
+    </div>
+
+    <div class="fullscreen" style="background-image: url('/assets/menschen.jpg'); text-decoration: underline">
+        Menschen
+    </div>
 
 </body>
 </html>
