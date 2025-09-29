@@ -1,6 +1,7 @@
 # Tierwelt-Website
 
 Thema: Grosser Panda
+
 Ziele: 
 - Strukturierte und sinnvoll aufgebaute Webseite
 - Möglichst informative und nicht komplex
@@ -13,10 +14,12 @@ Genutzte Quellen bisher:
 - ChatGPT
 
 Navigationskonzept:
-Die Navigation für die Webseite erfolgt nur mit simple buttons. 
-- Auf Index.html kommen 3 buttons(Steckbreif, Auf Karte ansehen, Bilder)
+Die Navigation für die Webseite erfolgt nur mit simple buttons in einem Menu-Bar. 
+- Auf Index.html kommen 4 buttons(Home-Page, Steckbreif, Auf Karte ansehen, Bilder)
 - Auf Steckbrief.html kommt 1 button(Fun Facts)
 - Im Index.html gibt es 2 weitere Seiten, die unterhalb geordnet werden
+    1. Allgemeine Informationen
+    2. Kontakt/Impressum
 
 Link zum Pages auf GitHub:
 https://github.com/Krithik-bot/Tierwelt-Website/tree/main/pages§
