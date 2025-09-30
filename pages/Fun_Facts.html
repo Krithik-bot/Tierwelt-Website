@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tierwelt-Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .center-image {
+            display: block;
+            margin: 120px auto;
+            max-width: 50%; 
+            height: auto;
+            border: 6px solid #555;
+            border-radius: 10px;
+        }
+
+        nav {
+            background: #555;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: auto;
+        }
+
+        nav button {
+            margin: 0 15px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            color: white;
+            background: transparent;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        nav button:hover {
+            background: white;
+            color: black;
+        }
+
+        p {
+            font-size: 18px;
+            color: black;
+    
+        }
+    </style>
 </head>
 <body>
-    <h1>Tierwelt auf der Karte</h1>
-    <p>Willkommen auf der Seite "Auf Karte".</p>
+
+
+    <img src="/assets/lustig_panda.jpg" class="center-image" />
+
+    <p style="position: absolute; top: 30px; left: 30px;"><strong>Fun-Fact1:</strong> Ein erwachsener Panda<br>isst 12 bis 15 kg Bambus täglich</p>
+    <p style="position: absolute; top: 30px; left: 550px; text-align: right;"><strong>Fun-Fact2:</strong> Ein Panda ist das Nationaltier Chinas</p>
+    <p style="position: absolute; top: 30px; right: 20px;"><strong>Fun-Fact3:</strong> Pandas schlafen bis zu 10 Stunden<br>am Tag, da Bambus nicht sehr nährstoffreich ist</p>
+    <p style="position: absolute; top: 190px; right: 45px;"><strong>Fun-Fact4:</strong> Ein neugeborenes Panda<br>wiegt etwa nur 100g<br>(So schwer wie eine Schokoladentafel)</p>
+    <p style="position: absolute; bottom: 200px; right: 30px;"><strong>Fun-Fact5:</strong> Pandas haben sechs<br>Finger, der ihnen hilft, Bambus zu greifen</p>
+    <p style="position: absolute; bottom: 30px; right: 50px;"><strong>Fun-Fact6:</strong> Pandas haben einen ähnlichen<br>Verdauungssystem wie Fleischfresser</p>
+    <p style="position: absolute; bottom: 30px; left: 550px;"><strong>Fun-Fact7:</strong> Pandas haben individuelle Mustern auf der<br>Nase, wie ein Fingerabdruck bei Menschen</p>
+    <p style="position: absolute; bottom: 30px; left: 30px;"><strong>Fun-Fact8:</strong> Pandas kommunizieren<br>durch Duftmarken, Laute und Körpersprache</p>
+    <p style="position: absolute; bottom: 200px; left: 30px;"><strong>Fun-Fact9:</strong> Weibliche Pandas sind nur<br>2 bis 3 Tage im Jahr paarungsbereit</p>
+    <p style="position: absolute; top: 190px; left: 30px;"><strong>Fun-Fact10:</strong> Es überlebt nur 1 Panda von<br>1000 neugeborene Pandas,<br>durch Krankheiten oder Verletzungen</p>
+
+
+
+    <nav>
+        <a href="/index.html"><button>Home-Page</button></a>
+        <a href="/pages/steckbrief.html"><button>Steckbrief</button></a>
+        <a href="/pages/Fun_Facts.html"><button>Fun-Facts</button></a>
+        <a href="/pages/auf_karte.html"><button>Auf Karte anzeigen</button></a>
+        <a href="/pages/bilder.html"><button>Bilder</button></a>
+    </nav>
+
 </body>
 </html>
