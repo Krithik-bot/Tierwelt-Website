@@ -28,3 +28,4 @@ Diese Menu-Bar steht ihnen immer zur Verfügung, um einfach durch die Webseite z
 
 Link zum Pages auf GitHub:
 https://github.com/Krithik-bot/Tierwelt-Website/tree/main/pages
+![alt text](<assets/Repo GitHub Pages.png>)
