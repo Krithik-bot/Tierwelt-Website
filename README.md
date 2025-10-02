@@ -2,7 +2,7 @@
 
 Thema: Grosser Panda
 
-Ziele: 
+## Ziele: 
 - Strukturierte und sinnvoll aufgebaute Webseite
 - Möglichst informative und nicht komplex
 - Gute Navigation zwischen Pages
@@ -13,7 +13,8 @@ Genutzte Quellen bisher:
 - https://www.tierchenwelt.de/raubtiere/624-panda.html
 - ChatGPT
 
-Navigationskonzept & Seitenübersicht:
+## Navigationskonzept & Seitenübersicht:
+
 Die Navigation für die Webseite erfolgt nur mit simple buttons in einem Menu-Bar. 
 Diese Menu-Bar steht ihnen immer zur Verfügung, um einfach durch die Webseite zu 
 - Auf Index.html kommen 4 buttons(Home-Page, Steckbreif, Auf Karte ansehen, Bilder)
@@ -26,6 +27,7 @@ Diese Menu-Bar steht ihnen immer zur Verfügung, um einfach durch die Webseite z
 - Im Auf Karte anshehen hat es eine Karte, welches den Lebensraum des Tiers darstellen
 - Im Bilder hat es Bilder über die Tiere und deren Namen
 
-Link zum Pages auf GitHub:
+## Link zum Pages auf GitHub:
+
 https://github.com/Krithik-bot/Tierwelt-Website/tree/main/pages
 ![alt text](<assets/Repo GitHub Pages.png>)
